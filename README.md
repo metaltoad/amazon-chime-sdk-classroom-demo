@@ -1,45 +1,10 @@
-# Amazon Chime SDK Classroom Demo
+# Legend of the Hidden Classroom
 
-This demo shows how to use the Amazon Chime SDK to build an online classroom in Electron and React.
+Metal Toad Hackathon
 
-<img src="resources/readme-hero.jpg" width="640" alt="Amazon Chime SDK Classroom Demo">
+<img src="https://cf.geekdo-images.com/camo/27f6ea91e9272f4b5427ab3de34ba5683a54bf80/687474703a2f2f696d61676573332e77696b69612e6e6f636f6f6b69652e6e65742f5f5f636232303132303432393136353135372f67616d6573686f77732f696d616765732f662f66622f506172726f74732e6a7067" width="640" alt="Amazon Chime SDK Classroom Demo">
 
 ## Installation
-
-### Option 1: Deploy via AWS Cloud9
-
-#### Prerequisites
-
-- Log into your AWS account with an IAM role that has the **AdministratorAccess** policy.
-- Use the **us-east-1 (N. Virginia)** region of your AWS account.
-
-#### Create an AWS Cloud9 environment
-
-1. Go to the [AWS Cloud9 Dashboard](https://us-east-1.console.aws.amazon.com/cloud9/home?region=us-east-1).
-2. Press the **Create environment** button or go [here](https://us-east-1.console.aws.amazon.com/cloud9/home/create).
-3. For the Name enter `<unique environment name>` and press the **Next step** button.
-4. For **Environment Settings** use the defaults and press the **Next step** button.
-5. Review the **Environment name and settings** and press the **Create environment** button.
-6. Wait for the environment to start.
-
-#### Run the deployment script
-
-Once the Cloud9 environment starts, run the following commands in the Terminal pane at the bottom of the window to download the application repository:
-
-```
-git clone https://github.com/aws-samples/amazon-chime-sdk-classroom-demo.git
-cd amazon-chime-sdk-classroom-demo
-```
-
-Now in the same Terminal pane, run the following command to deploy, package, and create a distribution for your application. Note this will take about 15 minutes.
-
-```bash
-script/deploy.js -r <region> -a <app name> -s <unique stack name> -b <unique bucket name>
-```
-
-At the end of the script you will see a URL to a download page. Save this link.
-
-### Option 2: Deploy from your local machine
 
 #### Prerequisites
 To deploy the classroom demo you will need:
