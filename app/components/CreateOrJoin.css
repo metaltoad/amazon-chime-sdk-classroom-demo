@@ -19,13 +19,21 @@
   margin: 0 0 1rem;
 }
 
+.logo {
+  width: 30px;
+  margin-top: 25px;
+  margin-bottom: -3px;
+  margin-right: -15px;
+  margin-left: 30%;
+}
+
 .formWrapper {
   width: 400px;
   background: var(--color_toad_orange);
   margin: auto;
   border: none;
   border-radius: 0.25rem;
-  padding: 3rem 2rem;
+  padding: 2rem 2rem 1rem 2rem;
 }
 
 .form {
