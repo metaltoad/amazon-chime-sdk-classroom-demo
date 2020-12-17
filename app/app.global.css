@@ -21,7 +21,7 @@
   --color_alto: #dedede;
   --color_silver_chalice: #9e9e9e;
   --color_tundora: #454545;
-  --color_mine_shaft_dark: #333;
+  --color_mine_shaft_dark: rgb(36, 36, 36);
   --color_mine_shaft_medium: #2d2d2d;
   --color_mine_shaft_light: #252525;
   --color_cod_gray_medium: #111;
@@ -31,6 +31,7 @@
   --color_black_medium_opacity: rgba(0, 0, 0, 0.6);
   --color_black_low_opacity: rgba(0, 0, 0, 0.25);
   --color_green: #09ff00;
+  --color_toad_orange: #ff7b00;
 }
 
 *,

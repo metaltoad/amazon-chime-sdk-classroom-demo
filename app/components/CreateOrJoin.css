@@ -8,8 +8,8 @@
   align-items: center;
   justify-content: center;
   height: 100%;
-  color: var(--color_mine_shaft_dark);
-  background: var(--color_mine_shaft_light);
+  color: var(--color_alabaster);
+  background: var(--color_mine_shaft_dark);
 }
 
 .title {
@@ -21,7 +21,7 @@
 
 .formWrapper {
   width: 400px;
-  background: var(--color_alabaster);
+  background: var(--color_toad_orange);
   margin: auto;
   border: none;
   border-radius: 0.25rem;
@@ -40,8 +40,13 @@
   padding: 0.75rem 1rem;
   font-size: 1rem;
   border-radius: 0.25rem;
-  border: 1px solid var(--color_alto);
+  color: var(--color_alabaster);
+  border: 1px solid var(--color_alabaster);
   background-color: transparent;
+}
+::placeholder {
+  color:var(--color_alabaster);
+  opacity: 1; /* Firefox */
 }
 
 .button {
@@ -51,21 +56,22 @@
   padding: 0.75rem;
   font-size: 1.1rem;
   font-weight: 500;
-  color: var(--color_alabaster);
-  background: var(--color_mine_shaft_light);
+  color: var(--color_toad_orange);
+  background: var(--color_alabaster);
   cursor: pointer;
   transition: background-color 0.15s;
   user-select: none;
 }
 
 .button:hover {
-  background: var(--color_cod_gray_medium);
+  background: var(--color_alto);
+  color: var(--color_toad_orange);
 }
 
 .loginLink {
   display: inline-block;
-  color: var(--color_tundora);
-  background: var(--color_alabaster);
+  color: var(--color_alabaster);
+  background: none;
   cursor: pointer;
   transition: opacity 0.15s;
   user-select: none;
@@ -80,7 +86,7 @@
 .regionsList {
   margin-bottom: 0.75rem;
   border-radius: 0.25rem;
-  border: 1px solid var(--color_alto);
+  border: 1px solid var(--color_alabaster);
 }
 
 .control {
@@ -93,13 +99,13 @@
   border-radius: 0.25rem;
   padding: 0 1rem;
   height: 2.75rem;
-  color: var(--color_mine_shaft_light);
+  color: var(--color_alabaster);
   display: flex;
   align-items: center;
 }
 
 .arrow {
-  border-color: var(--color_tundora) transparent transparent;
+  border-color: var(--color_alabaster) transparent transparent;
   border-width: 0.3rem 0.3rem 0;
   margin-top: 0.25rem;
   margin-right: 0.25rem;

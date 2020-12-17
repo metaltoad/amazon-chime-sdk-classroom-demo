@@ -139,7 +139,8 @@ export default function Classroom() {
               <div className={cx('titleWrapper')}>
                 <div className={cx('title')}>{chime?.title}</div>
                 <div className={cx('label')}>
-                  <FormattedMessage id="Classroom.classroom" />
+                  <span>Brought to you by</span>
+                  <span className={cx('purpleParrot')}>🦜PurpleParrots</span>
                 </div>
               </div>
               <div className={cx('deviceSwitcher')}>
