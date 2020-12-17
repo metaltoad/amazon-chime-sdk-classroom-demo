@@ -27,7 +27,7 @@ export default {
   'CreateOrJoin.namePlaceholder': `Your name`,
   'CreateOrJoin.continueButton': `Continue`,
   'CreateOrJoin.notTeacherLink': `Not a toad? Click here.`,
-  'CreateOrJoin.notStudentLink': `Not a student? Click here.`,
+  'CreateOrJoin.notStudentLink': `Not a peep? Click here.`,
   'CreateOrJoin.classRoomDoesNotExist': `Classroom does not exist`,
   'CreateOrJoin.serverError': `Server error`,
 
@@ -64,6 +64,7 @@ export default {
 
   'ChatInput.inputPlaceholder': `Type a chat message`,
   'ChatInput.raiseHandAriaLabel': `Raise hand`,
+  'ChatInput.dismissHandAriaLabel': `Dismiss hand`,
 
   'Roster.raiseHandAriaLabel': `Raised hand by {name}`,
 
