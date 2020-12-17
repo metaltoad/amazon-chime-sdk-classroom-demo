@@ -37,7 +37,7 @@
 }
 
 .message {
-  color: var(--color_alto);
+  color: var(--color_toad_orange);
   word-wrap: break-word;
   overflow-wrap: break-word;
   word-break: break-word;

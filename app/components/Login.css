@@ -11,7 +11,7 @@
 }
 
 .content {
-  color: var(--color_mine_shaft_dark);
+  color: var(--color_toad_orange);
   width: var(--screen_picker_width);
   background-color: var(--color_alabaster);
   border-radius: 0.25rem;
@@ -58,7 +58,7 @@
   font-size: 1.1rem;
   font-weight: 500;
   color: var(--color_alabaster);
-  background: var(--color_mine_shaft_light);
+  background: var(--color_toad_orange);
   cursor: pointer;
   transition: background-color 0.15s;
   user-select: none;
