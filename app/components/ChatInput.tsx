@@ -36,14 +36,6 @@ export default React.memo(function ChatInput() {
       attendeeId
     );
 
-    if (raised) {
-      timeoutId = window.setTimeout(() => {
-        chime?.sendMessage(MessageTopic.DismissHand, attendeeId);
-        setRaised(false);
-      }, 10000);
-    } else {
-      clearTimeout(timeoutId);
-    }
   }, [raised, chime?.configuration]);
 
   return (

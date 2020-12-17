@@ -11,13 +11,13 @@
 
 .form {
   display: flex;
-  background-color: var(--color_tundora);
+  background-color: var(--color_alabaster);
   border-radius: 0.25rem;
 }
 
 .input {
   flex: 1 1 auto;
-  color: var(--color_alabaster);
+  color: var(--color_toad_orange);
   background-color: transparent;
   outline: none;
   border: none;

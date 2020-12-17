@@ -131,6 +131,10 @@ export default function CreateOrJoin() {
             <FormattedMessage id="CreateOrJoin.notStudentLink" />
           )}
         </Link>
+        <div>
+          <img className={cx('logo')} src='../app/parrot_logo.png' />  
+          <small> Purple Parrots</small>
+        </div>
       </div>
     </div>
   );
