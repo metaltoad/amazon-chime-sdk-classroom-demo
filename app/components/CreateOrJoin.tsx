@@ -43,6 +43,7 @@ export default function CreateOrJoin() {
   return (
     <div className={cx('createOrJoin')}>
       <div className={cx('formWrapper')}>
+      <img className={cx('applogo')} src='https://metaltoad.github.io/hackathon-spacejungle/jungle_logo.png' />
         <h1 className={cx('title')}>
           {state.classMode === ClassMode.Teacher ? (
             <FormattedMessage id="CreateOrJoin.teacherTitle" />
@@ -132,7 +133,7 @@ export default function CreateOrJoin() {
           )}
         </Link>
         <div>
-          <img className={cx('logo')} src='../app/parrot_logo.png' />  
+          <img className={cx('logo')} src='https://raw.githubusercontent.com/metaltoad/hackathon-purpleparrot-classroom/master/app/parrot_logo.png' />  
           <small> Purple Parrots</small>
         </div>
       </div>

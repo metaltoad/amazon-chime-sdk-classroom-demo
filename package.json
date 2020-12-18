@@ -1,6 +1,6 @@
 {
   "name": "amazon-chime-sdk-classroom-demo",
-  "productName": "purpleparrotdev",
+  "productName": "SpaceJungle",
   "version": "1.0.0",
   "description": "Demonstrates how to use the Amazon Chime SDK to build an online classroom with Electron and React",
   "scripts": {
@@ -52,8 +52,8 @@
     ]
   },
   "build": {
-    "productName": "purpleparrotdev",
-    "appId": "com.amazonaws.services.chime.sdk.classroom.demo.purpleparrotdev",
+    "productName": "SpaceJungle",
+    "appId": "com.amazonaws.services.chime.sdk.classroom.demo.SpaceJungle",
     "artifactName": "${productName}.${ext}",
     "files": [
       "dist/",

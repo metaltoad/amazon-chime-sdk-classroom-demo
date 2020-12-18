@@ -21,8 +21,8 @@ export default {
   'Login.studentToggleDescription2': `Send chat messages`,
   'Login.studentButton': `I'm a peep`,
 
-  'CreateOrJoin.teacherTitle': `Start or join a room`,
-  'CreateOrJoin.studentTitle': `Join a classroom`,
+  'CreateOrJoin.teacherTitle': `Start or join a space`,
+  'CreateOrJoin.studentTitle': `Join a space`,
   'CreateOrJoin.titlePlaceholder': `Classroom`,
   'CreateOrJoin.namePlaceholder': `Your name`,
   'CreateOrJoin.continueButton': `Continue`,

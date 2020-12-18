@@ -140,7 +140,7 @@ export default function Classroom() {
                 <div className={cx('title')}>{chime?.title}</div>
                 <div className={cx('label')}>
                   <span>Brought to you by</span>
-                  <img className={cx('logo')} src='../app/parrot_logo.png' /><span className={cx('purpleParrot')}>PurpleParrots</span>
+                  <img className={cx('logo')} src='https://raw.githubusercontent.com/metaltoad/hackathon-purpleparrot-classroom/master/app/parrot_logo.png' /><span className={cx('purpleParrot')}>PurpleParrots</span>
                 </div>
               </div>
               <div className={cx('deviceSwitcher')}>
